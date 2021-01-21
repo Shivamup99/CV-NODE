@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+
+
+body{
+    font-family: 'Fraunces', serif;
+    background-color: #001240;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #fff;
+}
+.img{
+    width: 120px;
+    height: 150px;
+}
+
+.userDetails{
+    background-color: #00A7DB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+    flex-grow: 2;
+}
+.userDetails h1{
+    margin: 0;
+    font-size: 28px;
+}
+.userDetails span{
+    margin: 0;
+    display: inline-block;
+}
+
+.Home{
+    background-color:#00C1EA;
+}
+.project{
+    background-color: aquamarine;
+}
+.contact{
+    background-color: teal;
+}
+.Home , .project , .contact{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Home ion-icon,.project ion-icon,.contact ion-icon{
+    font-size: 100px;
+
+}
+.edu{
+    background-color: aquamarine;
+}
+.edu h1{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 2rem;
+
+}
+.edu span{
+    font-size: 30px;
+}
